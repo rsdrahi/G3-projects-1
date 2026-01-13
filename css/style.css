@@ -6,3 +6,95 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* Sheared style */
+
+.display_flex{
+  display: flex;
+}
+
+/* dark02 */
+.text_gray{
+  color: #424242;
+}
+
+/* dark03 */
+
+.text_light_gray{
+  color: #727272;
+}
+
+.bg_light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn_primary{
+  background-color: #FF900E;
+  color: white;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-size: 600;
+}
+/* Header */
+
+/* Navbar */
+
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+
+.nav_item{
+  list-style: none;
+  margin-right: 30px;
+}
+
+
+.nav_link{
+  text-decoration: none;
+}
+
+
+.banner, .navbar{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Banner Content */
+
+.banner_content{
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner_title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner_description{
+  font-size: 1rem;
+  line-height: 26px;
+}
+.banner_image{
+  width: 100%;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+  .navbar, 
+  .nav_links{
+    flex-direction: column;
+  }
+}
